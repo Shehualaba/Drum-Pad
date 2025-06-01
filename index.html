@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Drum Machine</title>
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body>
+    <div id="drum-machine">
+        <h1 id="header">Drum Pad</h1>
+      <div id="pad-bank">
+          <button id="heater-1" class="drum-pad">Q</button>
+          <button id="heater-2" class="drum-pad">W</button>
+          <button id="heater-3" class="drum-pad">E</button>
+          <button id="heater-4" class="drum-pad">A</button>
+          <button id="clap" class="drum-pad">S</button>
+          <button id="open-HH" class="drum-pad">D</button>
+          <button id="Kick-n'-Hat" class="drum-pad">Z</button>
+          <button id="Kick" class="drum-pad">X</button>
+          <button id="Closed-HH" class="drum-pad">C</button>
+      </div>
+        <div id="class-opener">
+        <p id="power">Power: <span id="on-off">On</span></p>
+        <label class="toggle-switch">
+  <input type="checkbox" id="power-toggle" checked>
+  <span class="slider"></span></label>
+        </div>
+      <div id="show">
+      <p id="display"></p>
+      </div>
+        <p class="volume-bar">Volume Bar: <span id="current-volume"></span></p>
+      <input id= "volume" type="range" min="0" max="1" step="0.01" value="0.5"/>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
